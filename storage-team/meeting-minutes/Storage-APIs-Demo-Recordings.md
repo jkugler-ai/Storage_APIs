@@ -6,6 +6,8 @@
 
 **About this file:** Text was pulled from Confluence through **ECI / MaaS Confluence** (`confluence_get_page`). It is **not** a pixel-perfect wiki export: headings and tables may be flattened, and some blocks repeat (especially AI recap text). Treat the **live Confluence page** as canonical for links, recordings, and formatting.
 
+**GitHub refresh (this commit):** Re-fetched the page via ECI after you expanded content in Confluence. **Confluence metadata `lastModifiedDate`:** 2026-04-30. **Full export (parsed table + every ECI segment in `<details>`):** [Storage-APIs-Demo-Recordings-from-eci.md](./Storage-APIs-Demo-Recordings-from-eci.md). *Note: ECI text may still differ slightly from what the browser shows for expanded macros/rows.*
+
 If the **browser** shows an Atlassian “JavaScript load error” for `id-frontend.prod-east.frontend.public.atl-paas.net`, fix network/VPN or use **MCP** instead of the web UI.
 
 **How to refresh:** In Cursor, ask the agent to run `confluence_get_page` with the same `page_url`, merge edits into this file, then commit and push (see `README.md` in this folder).

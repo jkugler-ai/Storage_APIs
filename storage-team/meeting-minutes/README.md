@@ -6,6 +6,8 @@ Daily notes live here as Markdown (`.md`) files.
 
 **Expanded Confluence tables → Markdown:** [CONFLUENCE-COPY-EXPANDED-TABLE.md](./CONFLUENCE-COPY-EXPANDED-TABLE.md) (browser copy / export) and `python scripts/confluence_eci_flat_to_markdown.py` (all ECI text into `<details>` sections).
 
+**Latest full ECI export in Git:** [Storage-APIs-Demo-Recordings-from-eci.md](./Storage-APIs-Demo-Recordings-from-eci.md) (generated from [eci-page.json](./eci-page.json)). To rebuild after a new MCP fetch, regenerate `eci-page.json` then run `python scripts\confluence_eci_flat_to_markdown.py storage-team\meeting-minutes\eci-page.json -o storage-team\meeting-minutes\Storage-APIs-Demo-Recordings-from-eci.md`.
+
 ## How to add a new day
 
 1. Copy `_TEMPLATE-daily.md`.

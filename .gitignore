@@ -8,3 +8,6 @@ state/watermarks.json
 
 # Daily log output if you choose to keep logs inside the repo folder
 logs/
+
+# Scratch segments used to build eci-page.json (regenerated locally)
+storage-team/meeting-minutes/_eci_latest/
