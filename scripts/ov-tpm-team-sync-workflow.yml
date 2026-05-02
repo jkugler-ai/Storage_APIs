@@ -1,0 +1,65 @@
+# Copy this file to the DESTINATION repo:
+#   OV-TPM-Team/.github/workflows/sync-storage-demo-recordings.yml
+#
+# Prerequisites:
+#   - jkugler-ai/Storage_APIs is PUBLIC (raw.githubusercontent.com works without a token).
+#   - Adjust TARGET_DIR / SOURCE_URL below if paths change.
+#
+# Behavior: on a schedule (and manual run), downloads the upstream Markdown and commits
+# only if the file changed. Uses the default GITHUB_TOKEN to push to OV-TPM-Team.
+
+name: Sync Storage APIs demo minutes
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily 06:15 UTC — change if you want a different cadence
+    - cron: "15 6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-storage-demo-recordings
+  cancel-in-progress: true
+
+env:
+  SOURCE_URL: https://raw.githubusercontent.com/jkugler-ai/Storage_APIs/main/storage-team/meeting-minutes/Storage-APIs-Demo-Recordings.md
+  TARGET_DIR: docs/storage-demos
+  TARGET_FILE: Storage-APIs-Demo-Recordings.md
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout OV-TPM-Team
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download from public Storage_APIs repo
+        run: |
+          mkdir -p "${TARGET_DIR}"
+          curl -fsSL "${SOURCE_URL}" -o "${TARGET_DIR}/${TARGET_FILE}"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${TARGET_DIR}/${TARGET_FILE}"
+          if git diff --staged --quiet; then
+            echo "No changes; upstream file matches local copy."
+          else
+            git commit -m "sync: ${TARGET_FILE} from jkugler-ai/Storage_APIs"
+            git push
+          fi
+
+# --- Optional: near-instant sync when you edit Storage_APIs ---
+# 1) In THIS file (on OV-TPM-Team), add under `on:`:
+#      repository_dispatch:
+#        types: [sync-storage-demos]
+# 2) In jkugler-ai/Storage_APIs, add a workflow on push to main that calls:
+#      gh workflow run sync-storage-demo-recordings.yml -R NVIDIA-dev/OV-TPM-Team
+#    OR POST /repos/NVIDIA-dev/OV-TPM-Team/dispatches with event_type sync-storage-demos
+# 3) Store a PAT with repo scope + org SSO authorized on OV-TPM-Team as a secret in Storage_APIs
+#    (e.g. OV_TPM_DISPATCH_PAT). Scheduled pull above needs NO secret if the source stays public.
