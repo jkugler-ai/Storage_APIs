@@ -1,16 +1,9 @@
 # Storage APIs — demo recordings (Confluence mirror)
 
-**Location in repo:** `storage-team/meeting-minutes/` (same content idea as `storage-team/confluence-exports/Storage-APIs-Demo-Recordings.md`; keep one or both depending on how you like to organize.)
+
 
 **Confluence source:** [Storage APIs Demo Recordings](https://nvidia.atlassian.net/wiki/spaces/OMNIVERSE/pages/2838740706/Storage+APIs+Demo+Recordings) (OMNIVERSE space)
 
-**About this file:** Text was pulled from Confluence through **ECI / MaaS Confluence** (`confluence_get_page`). It is **not** a pixel-perfect wiki export: headings and tables may be flattened, and some blocks repeat (especially AI recap text). Treat the **live Confluence page** as canonical for links, recordings, and formatting.
-
-**GitHub refresh (this commit):** Re-fetched the page via ECI after you expanded content in Confluence. **Confluence metadata `lastModifiedDate`:** 2026-04-30. **Full export (parsed table + every ECI segment in `<details>`):** [Storage-APIs-Demo-Recordings-from-eci.md](./Storage-APIs-Demo-Recordings-from-eci.md). *Note: ECI text may still differ slightly from what the browser shows for expanded macros/rows.*
-
-If the **browser** shows an Atlassian “JavaScript load error” for `id-frontend.prod-east.frontend.public.atl-paas.net`, fix network/VPN or use **MCP** instead of the web UI.
-
-**How to refresh:** In Cursor, ask the agent to run `confluence_get_page` with the same `page_url`, merge edits into this file, then commit and push (see `README.md` in this folder).
 
 ---
 
@@ -18,7 +11,7 @@ If the **browser** shows an Atlassian “JavaScript load error” for `id-fronte
 
 - **Series:** Storage: Sprint Demos — Weekly (2026)
 - **When:** Every **Thursday**, **12:30–1:30 PM ET**
-- **Meeting link:** (see Confluence page — not reproduced here)
+- **Meeting link:** [link](https://teams.microsoft.com/meet/21382453169814?p=mU9csZGtacV3CFCxiD)
 - **Demos / agenda:** If you want to demo or suggest a topic, add a **comment on the Confluence page** or talk with your leads/managers.
 
 ### Demo format (from page)
@@ -28,24 +21,17 @@ If the **browser** shows an Atlassian “JavaScript load error” for `id-fronte
 3. **Part 2b — How I built it**
 4. **Reflections** — what worked / what did not
 
-### Table columns (on wiki)
 
-Date · Demo / discussion topic(s) · Presenter(s) · AI summary · Transcript / recording
-
-### Demo table (best-effort Markdown; Confluence UI may differ)
-
-ECI text does not always preserve Confluence’s **expanded row** layout. For a true copy of expanded cells, follow [CONFLUENCE-COPY-EXPANDED-TABLE.md](./CONFLUENCE-COPY-EXPANDED-TABLE.md). To auto-build a Markdown file with **every ECI segment** in `<details>` blocks (full text), save MCP JSON and run `python scripts/confluence_eci_flat_to_markdown.py` (see that doc; sample input: `eci-page.sample.json`).
-
-| Date | Demo / discussion topic(s) | Presenter(s) | AI summary | Transcript / recording |
-|------|------------------------------|---------------|------------|-------------------------|
-| 2026-04-30 | Building Storage Navigator CLI with Superpowers skill; comparison of Superpowers vs OpenSpec; Security review skills with Claude/Cursor | Eric Glanz; Rick Acquistapace (slide deck); Artem Yastrebkov | “Meeting Recap…” (AI-generated; may be incorrect) | Links / files live on [Confluence](https://nvidia.atlassian.net/wiki/spaces/OMNIVERSE/pages/2838740706/Storage+APIs+Demo+Recordings) |
-| 2026-04-23 | Modeling Kit I/O behavior; Storage API Kubernetes operator; New scalable Live-Edit — agentic process | Diana Baghdasaryan; Dmitry Duka; Jesse Grant | AI recap on page | See Confluence / Teams |
-| 2026-03-25 | Migrating Kit-Test-Content with timestamps; Live edit through Storage API; Cluster resiliency testing | Pedro Luz; Brian Harris; Dmitry Duka | AI recap on page | See Confluence / Teams |
-| 2026-03-12 | Siemens EA2; Deployment automation from docs via AI; AI in engineering workflows; Storage API + refresh token | Manski Fransazov; Doron Levi; Chris Ruch; Eric Glanz & Artem Yastrebkov | AI recap on page | See Confluence / Teams |
+| Date | Demo / discussion topic(s) | Presenter(s) | Transcript / recording |
+|------|------------------------------|---------------|-------------------------|
+| 2026-04-30 | Building Storage Navigator CLI with Superpowers skill; comparison of Superpowers vs OpenSpec; Security review skills with Claude/Cursor | Eric Glanz; Rick Acquistapace (slide deck); Artem Yastrebkov | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%210BbLqbEMJ0G5dM5d5nHm2K7pTxAC6iZLqDhFWNMalG5EYLMf-EuyQbxIPQNfHIx1&driveItemId=01ZBCWB6F7KAIT3FYK4BGLOJX6V5SY524P&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fjkugler%2FIQC_UBE9lwrgTLcm_q9ljuuPAQBwKQ1lzz2rPElvXlQAWMY&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fjkugler%2FIQC_UBE9lwrgTLcm_q9ljuuPAQBwKQ1lzz2rPElvXlQAWMY&iCalUid=040000008200E00074C5B7101A82E00807EA041EDF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&masterICalUid=040000008200E00074C5B7101A82E00800000000DF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&threadId=19%3Ameeting_ZGI0YjU4YzItOWIzMS00YzcyLWI4YmEtMWZlNWE0ZDU2Yjgz%40thread.v2&organizerId=35a1b353-a70f-4cc6-a82f-e60efd4c7705&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=26bff12e-71e2-4a08-bd55-059772273c39&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapChiclet) |
+| 2026-04-23 | Modeling Kit I/O behavior; Storage API Kubernetes operator; New scalable Live-Edit — agentic process | Diana Baghdasaryan; Dmitry Duka; Jesse Grant | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%21VMDxFOaXlEieqROU9xSQ_1ebZnuyxcNJlY29_Ii63fL38GJFsMnmR6u1Imk182zl&driveItemId=01HPRTUEMKK5BC7B4VV5A2CHG4Z5JIQDFI&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQCKV0Ivh5WvQaEc3M9SiAyoAf2j7NXhxEsOd16wW_Nkozo&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2Fpersonal%2Fdsmither_nvidia_com%2FDocuments%2FRecordings%2FStorage+Sprint+Demos-20260423_123250-Meeting+Recording.mp4%3Fweb%3D1&threadId=19%3Ameeting_NDRiOTk1YzQtMTQxNC00NGJiLWJmNjQtMzc5NTU1ODU3Mjlh%40thread.v2&organizerId=249dcdfb-fd68-40f4-850f-69245ee2421b&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=69d3ae30-cee2-408b-a22f-0b398f228117&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapCore) |
+| 2026-03-25 | Migrating Kit-Test-Content with timestamps; Live edit through Storage API; Cluster resiliency testing | Pedro Luz; Brian Harris; Dmitry Duka | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%21VMDxFOaXlEieqROU9xSQ_1ebZnuyxcNJlY29_Ii63fL38GJFsMnmR6u1Imk182zl&driveItemId=01HPRTUEPBC6XJ7AFPGZAIJNFAFGWMOPFM&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQDhF66fgK82QIS0oCmsxzysAcv7sYYJETMhPMyxCGVPMgo&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQDhF66fgK82QIS0oCmsxzysAcv7sYYJETMhPMyxCGVPMgo&iCalUid=040000008200E00074C5B7101A82E008000000000D63CDEFEF86DC010000000000000000100000006D6C42EE2168FD4EBB9037C332AF5B27&masterICalUid=040000008200E00074C5B7101A82E008000000000D63CDEFEF86DC010000000000000000100000006D6C42EE2168FD4EBB9037C332AF5B27&threadId=19%3Ameeting_NDRiOTk1YzQtMTQxNC00NGJiLWJmNjQtMzc5NTU1ODU3Mjlh%40thread.v2&organizerId=249dcdfb-fd68-40f4-850f-69245ee2421b&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=2d92d2d0-8e13-4566-8180-de04398cf663&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapChiclet) |
+| 2026-03-12 | Siemens EA2; Deployment automation from docs via AI; AI in engineering workflows; Storage API + refresh token | Manski Fransazov; Doron Levi; Chris Ruch; Eric Glanz & Artem Yastrebkov | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%21VMDxFOaXlEieqROU9xSQ_1ebZnuyxcNJlY29_Ii63fL38GJFsMnmR6u1Imk182zl&driveItemId=01HPRTUENJY5RGOI5ZHVGZSKZGUFJLM7PX&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2Fpersonal%2Fdsmither_nvidia_com%2FDocuments%2FRecordings%2FStorage+Sprint+Demos-20260312_123304-Meeting+Recording.mp4&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2Fpersonal%2Fdsmither_nvidia_com%2FDocuments%2FRecordings%2FStorage+Sprint+Demos-20260312_123304-Meeting+Recording.mp4&threadId=19%3Ameeting_NDRiOTk1YzQtMTQxNC00NGJiLWJmNjQtMzc5NTU1ODU3Mjlh%40thread.v2&organizerId=249dcdfb-fd68-40f4-850f-69245ee2421b&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=cd2aa913-f6e0-418f-87d7-27d6701bfa99&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapCore) |
 
 ---
 
-## Latest session highlights (2026-04-30) — summarized
+## Latest session highlights (2026-04-30) — summarized with AI
 
 **Topics called out in the export:** Storage Navigator CLI with Superpowers skill; comparison of Superpowers vs OpenSpec; security review / remediator skills with Claude/Cursor; OneDrive integration (auth, multi-user), OpenSpec workflow (proposal/design/spec/tasks, phases), Portal testing delays (Kit + Omni Storage API Auth extension), MVSB review status, performance (e.g. Astronaut USD graph API / load times), Kubernetes/operator and Helm discussion threads from prior weeks, Chaos Mesh resiliency testing, Live Edit / Rust service work, and more.
 
@@ -62,30 +48,340 @@ ECI text does not always preserve Confluence’s **expanded row** layout. For a 
 - Compare **Teams**, **OpenSpec**, **Superpowers** for quality and workflow granularity.
 - Extending security reviewer for **live infiltration** testing — undecided.
 
-**Agenda snippet:** Showcase completed work and process (~20 min built work, ~40 min LLM usage discussion).
+**Agenda**
+Goal: Showcase completed work and development process
+
+Presentation of built projects (20 min)
+
+Discussion of LLMs usage in development (40 min)
+
+Meeting notes
+Meeting documentation
+Jen created a dedicated space in Confluence for meeting recordings and notes, separate from GitHub.
+
+Georgi explained that meeting owners can manually download transcripts and videos from Teams.
+
+Jen confirmed that all meeting recordings and notes will be posted in a dedicated Confluence space, with Gabe automating their availability in GitHub.
+
+Mitri explained that completed files are archived for future reference, allowing both AI and users to review and update specifications as needed.
+
+**Demo and development process**
+Mitri shared that Rick completed work on OneDrive storage, including adding authentication and multi-user support, and used OpenSpec to structure the development process.
+
+Mitri described how OpenSpec was used to generate proposal, design, spec, and task files for the bearer token feature, including rationale, alternatives, and impact across the build.
+
+Mitri detailed that OpenSpec created 29 tasks split into 7 phases, with the order determined by the required workflow for implementation.
+
+Mitri described how OpenSpec generated and managed tasks, phases, and specs for the OneDrive integration, including resolving performance issues and deploying to Azure clusters.
+
+Mitri explained that testing with Portal was delayed due to missing support for Kit and the Omni Storage API Auth extension, with support expected to be completed in about two weeks.
+
+Mitri described how the OneDrive integration was fully implemented by AI using a single prompt and OpenSpec, without changes to kit, client library, or omni storage API auth.
+
+Mitri explained their process of creating a OneDrive skill using Claude CLI and superpowers, including iterative testing and updates, resulting in a working service and a detailed skill.md file.
+
+Mitri highlighted that context switching was minimized during AI-driven development, allowing uninterrupted progress despite frequent interruptions.
+
+Eric clarified that OpenSpec includes an "explore" skill for an interview-style workflow, and Rick used this skill to guide the process, offering alternatives to direct proposal creation.
+
+Eric demonstrated the Storage Navigator CLI, highlighting its command coverage, file management features, and visual brainstorming capabilities.
+
+Mitri described their process of creating a OneDrive skill using Claude CLI and superpowers, including iterative testing and updates, resulting in a working service and a detailed skill.md file.
+
+Eric demonstrated the Storage Navigator CLI, highlighting its command coverage, file management features, and visual brainstorming capabilities.
+
+**OneDrive integration deliverables**
+Mitri confirmed that the OneDrive integration deliverable will be Python code, ready for internal distribution by Monday, and will be sent to Nic and Daniel for testing.
+
+Mitri clarified that the deliverable for BMW will be actual working Python code, not just a skill, and discussed the option to provide both code and a generic skill for broader use.
+
+Mitri confirmed that the OneDrive integration deliverable will be Python code, ready for internal distribution by Monday, and will be sent to Nic and Daniel for testing.
+
+Mitri clarified that the deliverable for BMW will be actual working Python code, not just a skill, and discussed the option to provide both code and a generic skill for broader use.
+
+**Development process**
+Eric demonstrated the process of building the Storage Navigator CLI using the Superpower Skill framework, highlighting its methodology of brainstorming, design documentation, and implementation planning.
+
+Eric explained that the Superpower Skill framework ensures all relevant skills are invoked during the development process to keep the LLM focused and prevent skipping steps.
+
+Eric described how the Superpower Skill framework uses a per-task loop to minimize context bloat, ensuring the LLM focuses only on relevant tasks during development.
+
+Eric explained that the framework applies a TDD cycle for each task, including writing a failing test, implementing code to pass the test, and refactoring, with rationalization resistance to prevent the LLM from skipping steps.
+
+Eric detailed that after all tasks are completed, the framework performs a final safety net review by passing the full design, implementation, and commits to ensure no gaps remain in the code.
+
+Eric explained that the Storage Navigator CLI uses a per-task loop, assigning each task to a sub-agent for context isolation, without parallel task execution.
+
+Eric clarified that Superpower skills keep agents focused on specific tasks, minimizing context bloat and preventing agents from skipping steps.
+
+Eric noted that Superpower artifacts are highly implementer-focused and not very human-readable, while the "Get stuff done" repo generates more human-readable documentation but uses more tokens.
+
+Jesse asked whether Superpower includes a workflow for surfacing outstanding issues and bug tickets after implementation, and Eric responded that it does not, but this could be added by modifying the skills.
+
+Daniel inquired about the differences between two versions of Superpower (Abra and Claude code), and Eric confirmed he was not aware of the comparison but could investigate further.
+
+Mitri described using OpenSpec in explore mode to generate proposal, design, spec, and task files for the bearer token feature, including rationale, alternatives, and impact across the build.
+
+Mitri explained that OpenSpec created 29 tasks split into 7 phases for the initial implementation, and after reviewing and modifying the files, they completed the tasks and merged changes into main.
+
+Mitri clarified that OpenSpec operates through an argumentative workflow, generating designs and tasks based on user feedback, and includes an "explore" skill for interview-style context gathering.
+
+Eric confirmed that OpenSpec provides skills such as "propose" and "explore," with "explore" serving as a preliminary step to gather context before proposal generation.
+
+Eric explained that OpenSpec includes skills such as "propose" and "explore," with "explore" serving as a preliminary step to gather context before proposal generation.
+
+Eric described the Superpower Skill framework as a complete software development methodology for coding agents, emphasizing its use of composable skills, brainstorming, design artifacts, and review steps.
+
+Eric described how the Superpower Skill framework uses a per-task loop to minimize context bloat, ensuring the LLM focuses only on relevant tasks during development.
+
+Eric explained that the framework applies a TDD cycle for each task, including writing a failing test, implementing code to pass the test, and refactoring, with rationalization resistance to prevent the LLM from skipping steps.
+
+Eric detailed that after all tasks are completed, the framework performs a final safety net review by passing the full design, implementation, and commits to ensure no gaps remain in the code.
+
+Eric explained that the Superpower Skill framework uses a per-task loop, assigning each task to a sub-agent for context isolation, without parallel task execution.
+
+Eric clarified that Superpower artifacts are highly implementer-focused and not very human-readable, while the "Get stuff done" repo generates more human-readable documentation but uses more tokens.
+
+Eric explained that Superpower artifacts are highly implementer-focused and not very human-readable, while the "Get stuff done" repo generates more human-readable documentation but uses more tokens.
+
+Jesse asked whether Superpower includes a workflow for surfacing outstanding issues and bug tickets after implementation, and Eric responded that it does not, but this could be added by modifying the skills.
+
+Daniel raised the question about comparing the Abra and Claude code versions of Superpower, and Eric agreed to investigate further.
+
+**Project requirements**
+Nic reminded Mitri that the MVSB review is required before proceeding, and Mitri confirmed it has not been completed yet.
+
+Eric shared that the project received significant community engagement, with open PRs focused on improving LLM workflow reliability and skill implementation.
+
+Eric mentioned the "Get stuff done" repo as another framework with notable traction for task execution and workflow management.
+
+Mitri acknowledged that the MVSB review for the OneDrive integration has not been completed yet and needs to be done before distribution.
+
+**Security review automation**
+Artem demonstrated two AI skills for security review and remediation, which inspect code for vulnerabilities, generate reports, and guide fixes for authentication and authorization services in omniverse storage APIs.
+
+Artem described how the security reviewer reads repository security documents to understand deployment context before analyzing code, Docker files, Helm charts, and dependencies for vulnerabilities.
+
+Artem explained that the remediator analyzes the reviewer's report, asks clarifying questions, proposes fixes, and applies them using a test-driven development cycle, including running and updating unit tests.
+
+Artem highlighted that the remediator can handle multiple issues in parallel using Git work tree, and provides recommendations for patching or updating vulnerable dependencies, including handling transitive dependencies.
+
+Artem described how the remediator tool identifies vulnerabilities in dependencies, suggests fixes, and allows exceptions to be documented in a CVMD file for later review.
+
+Artem explained that the remediator uses Rust tools like Cargo Tree and Cargo Audit to detect CVEs and provides options to patch, update, or ignore vulnerabilities, including handling transitive dependencies.
+
+Artem clarified that their security skill inspects code for exploits but does not attempt live infiltration or attack against services.
+
+Gabe described their previous hackathon project, which included creating an allow list of tools and pulling latest CVEs every 24 hours to keep security checks updated.
+
+Artem demonstrated two AI skills for security review and remediation, which inspect code for vulnerabilities, generate reports, and guide fixes for authentication and authorization services in omniverse storage APIs.
+
+Artem described how the security reviewer reads repository security documents to understand deployment context before analyzing code, Docker files, Helm charts, and dependencies for vulnerabilities.
+
+Artem explained that the remediator analyzes the reviewer's report, asks clarifying questions, proposes fixes, and applies them using a test-driven development cycle, including running and updating unit tests.
+
+Artem highlighted that the remediator can handle multiple issues in parallel using Git work tree, and provides recommendations for patching or updating vulnerable dependencies, including handling transitive dependencies.
+
+Artem described how the remediator tool uses Rust tools like Cargo Tree and Cargo Audit to detect vulnerabilities, suggest updates for direct or transitive dependencies, and allow exceptions with documented rationale in a CVMD file
+
+Artem explained that the remediator generates a summary of fixes for each issue, which can be included in merge requests for human review in GitLab
+
+Gabe discussed a previous hackathon project with Doron that created an allow list of security tools and pulled the latest CVEs every 24 hours to keep checks updated
+
+Artem clarified that their security skill inspects code for exploits but does not attempt live infiltration or attack against services
+
+**Workflow comparison**
+Daniel discussed the differences between Superpower and Teams workflows, highlighting that Teams can build milestone delivery checkpoints and parallelize tasks for large projects.
+
+Mitri described the main difference between OpenSpec and Superpower as Superpower's ability to keep agents focused on specific tasks, minimizing context bloat and preventing agents from skipping steps.
+
+Daniel described that Teams can build milestone delivery checkpoints and parallelize tasks for large projects, while Superpower and OpenSpec focus on epic-level features with a single agent and sub-agent workflow.
+
+**AI-driven development process**
+Artem explained that their presentation was compiled using Cursor and the new GPT-555 model, which processed a Google Docs template and GitLab MR to generate slides.
+
+Mitri explained that context switching was minimized during AI-driven development, allowing uninterrupted progress despite frequent interruptions.
+
+**Performance improvements**
+Mitri detailed performance improvements for Astronaut USD by replacing multiple API calls with a single graph API call, reducing load time from 5 minutes to 17 seconds.
+
+Mitri demonstrated loading Astronaut USD using the box extension, showing improved load times and automatic thumbnail updates.
+
+**Deployment and workflow**
+Mitri described completing a second, more detailed change plan with 8 phases and 77 tasks, including a hot fix and CI/CD pipeline setup, resulting in successful deployment to Azure clusters.
+
+**Testing and integration**
+Mitri reported that testing with Portal was delayed due to missing support for Kit and the Omni Storage API Auth extension, with support expected to be completed in about two weeks.
 
 ---
 
-## Earlier weeks (one line each, from export)
+## Earlier weeks
 
-| Date (approx.) | Notes from export |
-|----------------|-------------------|
-| 2026-04-23 | Kit I/O modeling; Storage API k8s operator; scalable Live-Edit agentic process; broader “LLM and agentic development” themes. |
-| 2026-03-25 | Kit test content migration / timestamps; Live Edit via Storage API; cluster resiliency (Chaos Mesh). |
-| 2026-03-12 | Siemens EA2 / Kit upstreaming 2.0 themes; deployment doc automation; Storage API + refresh token demo; Navigator testing ideas. |
+## (2026-04-23) — summarized with AI
+
+**LLM and Agentic Development at NVIDIA Omniverse**
+
+Gabe emphasized the shift toward agentic development using LLMs, noting uneven adoption across teams and the need for knowledge sharing on successful and unsuccessful LLM usage. The focus is on building production-grade software, not just demos, and addressing reliability, security, and scalability challenges. Sprint demos will now include both "what was built" and "how it was built" with more Q&A time. 0:45
+
+Security constraints currently limit some LLM work, but Gabe encouraged everyone to find ways to use LLMs, even for personal projects, to keep pace with rapid industry changes. 4:25
+
+**Dependency Graph and Replay Tool for Benchmarking**
+
+Diana presented a tool for capturing scene dependency graphs and a replay tool for benchmarking scene loading, enabling performance analysis without GPUs or Kit. The tools help visualize dependencies, identify bottlenecks, and detect broken references. Benchmarking results showed significant performance differences based on caching strategies, with the list cache outperforming start cache in certain scenes. 15:32
+
+Diana used Claude for learning USD libraries and automating repetitive tasks in tool development. 17:37
+
+**Kubernetes Operator for Storage APIs**
+
+Dmitry demoed a Kubernetes operator for managing storage API service stacks, automating configuration and deployment based on custom resources. The operator supports dynamic service enablement, secret management, and integration testing. 28:57
+
+Dmitry used Claude in "YOLO mode" with Andrei Karpathy's auto-research plugin for iterative development, setting integration test passing as a success metric. 31:15
+
+Discussion covered whether the operator would replace Helm charts, with consensus that both options would be available, each with trade-offs for customer usability and troubleshooting. 33:39
+
+**Multi-Agent SDLC Orchestration for Live Edit Service**
+
+Jesse described rebuilding the Live Edit service in Rust using a multi-agent SDLC orchestration framework (with Bees and Apiary skills). The process involved generating detailed PRD and SDD documents, breaking down work into tickets, and orchestrating agent teams for code, tests, and docs. 40:43
+
+The workflow enabled rapid, thorough development, producing a production-ready service in about a week, with iterative improvements and performance tuning. Multi-agent review cycles improved quality and resilience. 52:20
+
+The new Rust service is cross-platform, has robust testing, and is easier to maintain than the previous C version. Security and performance were discussed, with ongoing benchmarking and CI improvements. 1:09:08
+
+Team members discussed parallelization strategies for agent workflows and the challenge of validating LLM-generated code for production release, highlighting the need for sufficient tests and multi-agent review processes. 1:03:27
+
 
 ---
 
-## Push this file to GitHub
+## (2026-03-25) — summarized with AI
 
-From the **repo root** (the folder that contains `storage-team`):
+**Migration of Kit Test Data from Nucleus Using Timestamp Asset Migration Tool:** 
+Pedro presented the development and demonstration of a tool for migrating timestamped kit test data from Nucleus to cloud storage, with input and feedback from Gabe, Nic, Daniel, and others, focusing on maintaining data immutability and supporting Nacho's CICD use case.
 
-```powershell
-cd "C:\Users\jenni\OneDrive - NVIDIA Corporation\Cursor Projects\Daily Things"
-git add storage-team\meeting-minutes\Storage-APIs-Demo-Recordings.md
-git commit -m "Update Storage APIs demo recordings from Confluence"
-git push
-```
+Timestamp Migration Tool Overview: Pedro explained the motivation for migrating timestamped assets from Nucleus to other cloud storages, highlighting the need to preserve data immutability and versioning for kit test content as Nucleus is deprecated.
 
-On GitHub it will appear as:  
-[https://github.com/jkugler-ai/Storage_APIs/blob/main/storage-team/meeting-minutes/Storage-APIs-Demo-Recordings.md](https://github.com/jkugler-ai/Storage_APIs/blob/main/storage-team/meeting-minutes/Storage-APIs-Demo-Recordings.md)
+Tool Functionality and Workflow: The tool validates links, catalogs assets, generates WRAPP packages, uploads them to cloud storage, and produces manifests and reports, enabling seamless migration and reference of assets at specific points in time.
+
+Demo and Usage: Pedro demonstrated the tool's operation, showing how it consumes a JSON file of URLs with timestamps, processes dependencies, builds manifests, and outputs new manifest URLs, including dry-run and reporting features.
+
+Handling Special Cases and Limitations: Pedro discussed challenges such as handling MDL files with dynamic links, missing files, and parent folder references, noting that these are reported and that further testing with other storages and new data creation is needed.
+
+Integration with Nacho's CICD Workflow: Gabe, Nic, and Daniel clarified that the tool is intended to support Nacho's CICD by replacing timestamped URLs with manifests, and discussed the need for ease of use, breadth and depth analysis, and future automation for version creation.
+
+**Live Edit Support in Omniverse Storage API and Nucleus Storage Service**: 
+Brian reviewed the addition of live edit support to the Omniverse Storage API, detailing architectural changes, client library updates, and the creation of a Nucleus storage service, with technical questions and naming suggestions from Kody, Daniel, Georgi, and others.
+
+Motivation and Problem Statement: Brian described the need to decouple live edit sessions from storage, moving away from Nucleus's subfolder-based approach and complex Kit-defined message formats, to enable live edit support in the Omniverse Storage API.
+
+Server and Client Architecture: The new implementation uses a gRPC API for session management, presence, and layer I/O, with a stateless, microservice architecture and dedicated functions for live sessions, presence, and messaging, supporting both Nucleus and storage providers.
+
+Feature Set and Compatibility: Key features include server-managed presence, chunked layer streaming, self-echo suppression, jitter estimation, health checks, and metrics, with backwards compatibility for existing Nucleus servers and Kit clients.
+
+Nucleus Storage Service and Protocol Translation: Brian explained the Nucleus storage service as a thin translation layer that allows clients to use the new storage protocol with legacy Nucleus servers, handling authentication, user isolation, protocol definition, live presence, and efficient versioned reads.
+
+Technical Questions and Naming Discussion: Kody asked about data storage mechanisms, Daniel and Georgi discussed naming conventions for the live edit service, and Georgi suggested clarifying the service's scope and naming to better reflect its functionality.
+
+**Cluster Resiliency Testing with Chaos Mesh**: 
+Dmitry presented the approach for cluster resiliency testing using Chaos Mesh, outlining its capabilities, test design, and adoption strategy, with questions and input from Da'Neil, Gabe, Georgi, and others regarding test types, recoverability, and broader team adoption.
+
+Chaos Mesh Tool Selection and Capabilities: Dmitry described Chaos Mesh as the chosen tool for injecting faults into Kubernetes clusters, supporting various fault types such as pod restarts, network issues, CPU/memory stress, and more, with comparisons to other tools.
+
+Test Design and Execution: Each team is responsible for writing tests that use Chaos Mesh to model their service's behavior, establishing baselines, injecting faults, verifying error codes, and marking tests as recoverable or non-recoverable for structured execution.
+
+Recoverable vs Non-Recoverable Tests: Dmitry and Georgi discussed examples of recoverable and non-recoverable tests, such as pod failures and stateful components, emphasizing the importance of marking tests and orchestrating their execution for unified resiliency assessment.
+
+Adoption and Promotion Strategy: Gabe and Dmitry discussed the readiness of Chaos Mesh for broader use, the dissemination of SRD and SDD documents, and strategies for promoting adoption across teams, including tech talks and coordination for unified testing.
+
+Integration with CI/CD and Infrastructure: The approach includes offering helm charts for Kubernetes jobs, enabling periodic test runs, and leveraging new infrastructure capabilities on GCP and MVKS for immediate deployment and value extraction.
+
+Postponement of Modeling Kit I/O Behavior Presentation: Jen, Diana, Dmitry, and Gabe agreed to postpone Diana's presentation on modeling kit I/O behavior to the next meeting to allow sufficient time for discussion and questions.
+
+Scheduling Decision: Due to time constraints and the desire for a thorough discussion, Diana's presentation was rescheduled to the next meeting, with Jen confirming Diana will be at the top of the agenda.
+
+**Follow-up tasks:**
+
+Kit Test Content Migration Demonstration: Perform a full end-to-end demonstration by converting actual data, showing it can be loaded in Kit from S3 with the timestamp, and prepare to present this to Nacho for feedback on fit for his use case. (Pedro)
+
+Kit Test Content Migration Breadth and Performance: Provide information on how many existing timestamp URLs the migration tool works on out-of-the-box, identify remaining gaps, and report the average time required for an average scene to complete the process. (Pedro)
+
+Channel API Deprecation Documentation: Prepare documentation outlining the steps required for customers to switch from the deprecated channel functions to the new API, ensuring a straightforward migration process. (Brian)
+
+Chaos Mesh Adoption Promotion: Coordinate with relevant team leads and stakeholders to promote the adoption of Chaos Mesh for resiliency testing across all teams, possibly through an engineering tech talk or similar initiative, and ensure awareness of SRD and SDD documentation. (Dmitry, Gabe)
+
+
+---
+
+## (2026-03-12) — summarized with AI
+
+**Meeting Scheduling and Presenter Coordination**: 
+Jen, Manski, Gabe, and Nic discussed the meeting schedule, presenter order, and the absence of some presenters, ensuring that Manski could begin his segment while waiting for others to join.
+
+Time Allocation Adjustments: Jen and Gabe clarified that there was an extra 10 minutes available in the meeting due to Jesse's absence, allowing for more flexibility in the presenters' time slots.
+
+Presenter Attendance: Jen confirmed that two of the scheduled presenters were present, while Doron and Chris were not yet in attendance; Nic suggested pinging Chris to join.
+
+Order of Presentations: Gabe proposed that the meeting proceed with the available presenters, suggesting that Manski start his presentation while waiting for the others to arrive.
+
+Preparation for Manski's Presentation: Manski confirmed readiness to begin his presentation, discussed the time constraints, and addressed technical setup for sharing content and recording with Jen and Gabe.
+
+Time Constraint Discussion: Manski expressed that 10 minutes would be sufficient, though a minute or two extra would be helpful, and Jen reassured him that the time limit would be flexible due to the adjusted schedule.
+
+Technical Setup and Recording: Jen asked Manski if he needed to share his screen for the presentation, and Gabe confirmed that the meeting was being recorded, with both Jen and Manski affirming the recording status.
+
+**Overview and Strategic Direction of Kit Upstreaming 2.0**:
+Manski provided a comprehensive overview of Kit Upstreaming 2.0, outlining its purpose, architecture, and strategic importance for NVIDIA, with a focus on enabling independent software vendors like Siemens to integrate Omniverse workloads and scale the platform.
+
+Purpose and Strategic Goals: Manski explained that Kit Upstreaming 2.0 aims to increase awareness of GitHub streaming, clarify its architecture, and foster a shared understanding of Omniverse component design, with the ultimate goal of making Omniverse and AVCF more successful by empowering ISVs such as Siemens to build solutions for their customers.
+
+Architecture and Deployment Model: The architecture consists of a general-purpose, reusable deployment platform (MVCF plus AOS and backend Omniverse components) and an application layer specific to Kit Upstreaming, allowing ISVs to customize deployments, select services, and operate clusters in their own cloud environments.
+
+ISV Enablement and Customer Journey: Manski described how Siemens, as the first ISV customer, receives the software, comprehensive documentation, and engineering examples, targeting experienced platform engineers and DevOps roles to provision, deploy, and customize clusters using their preferred cloud service providers.
+
+Internal Implications and Testing: Internally, Omniverse components are expected to be cloud agnostic and scalable, with teams now having access to facilities for deploying and experimenting with clusters, emphasizing the need for robust integration testing and coordination across component teams.
+
+Challenges and Technical Debt: Manski highlighted the integration-heavy nature of GitHub Streaming, the need for improved automated integration testing, and the importance of cross-team communication and prioritization, noting that technical debt remains in some areas but progress with Siemens is strong.
+
+**Transition Plan for Mercedes and BMW from DGXC**: 
+Gabe discussed the strategic plan to eventually migrate Mercedes and BMW from DGXC to ISV-managed solutions, clarifying that while support continues, the long-term goal is to have these customers operate on cloud service provider stacks managed by integrators like Siemens.
+
+Current State and Rationale: Mercedes and BMW are currently the only DGXC app streaming customers, and NVIDIA is not seeking to expand this model, as cloud service providers now offer comparable infrastructure, making DGXC less of a differentiator for external customers.
+
+Migration Strategy: The plan is to transition Mercedes and BMW to ISV-managed solutions, where they would become customers of integrators like Siemens, running on cloud service provider stacks instead of DGXC, ensuring a smooth migration and continued support during the process.
+
+Ongoing Support: Despite the planned migration, NVIDIA remains committed to maintaining high service levels for Mercedes and BMW, continuing to invest in their current DGXC-based services and addressing their feature requests.
+
+**Automation of Deployment Documentation Validation**: 
+Speaker 1 presented an AI-driven approach to automate the validation of deployment documentation, describing a pipeline that detects documentation changes, updates deployment scripts, and significantly reduces manual testing time for the Kit Upstreaming stack.
+
+Automation Pipeline Design: The process involves using AI to scan documentation, detect changes, and generate or update deployment scripts, which are then tested in CI; if discrepancies or failures are found, the system notifies the team for manual intervention.
+
+Benefits and Impact: This automation has reduced the time required to validate documentation from two to three days to about one hour, enabling faster updates and higher documentation quality by quickly identifying and addressing issues.
+
+Script Functionality and Limitations: The tool is not intended to be the canonical deployment script but serves to ensure documentation accuracy; it handles common changes, supports both manual and CI modes, and can adapt to environment changes such as switching from VM to container deployments.
+
+Error Handling and Edge Cases: The script can detect resource allocation issues (e.g., insufficient GPUs), attempt to resolve them by changing zones, and escalate to human intervention if necessary, providing snapshots and detailed feedback for troubleshooting.
+
+**Demo of Storage API Integration and Token Refresh Mechanism**: 
+Eric and Artem demonstrated the integration of the USD storage API with Kit streaming sessions, highlighting new capabilities such as multiple discovery service support, proactive and reactive token refresh, and improved authentication flows.
+
+Storage API Integration: Eric showed how the Kit extension now allows connections to USD storage API instances, enabling users to browse storage contents within streaming sessions, with support for multiple discovery APIs configured and added dynamically.
+
+Authentication Flow Enhancements: The authentication process now supports right-click initiation for each discovery service, with the portal handling authentication pop-ups and passing access tokens to the streaming session, improving flexibility compared to the previous Nucleus-only approach.
+
+Proactive and Reactive Token Refresh: The portal proactively refreshes access tokens before expiration and can also respond to explicit requests from Kit if a token expires, ensuring session stability and addressing previous issues where expired tokens required session restarts.
+
+Edge Case Handling: If both access and refresh tokens expire, the portal triggers a new authentication flow, prompting the user to re-authenticate, which also accommodates customers who do not use refresh tokens.
+
+**Testing Practices and Recommendations for Navigator**: 
+Gabe, Artem, and Eric discussed current testing practices for Navigator, including the use of unit tests, manual testing, and the potential for leveraging Playwright and LLMs to automate end-to-end tests and reduce manual effort.
+
+Current Testing Approaches: Artem and Eric described their use of unit tests and manual testing for Navigator, with plans to implement end-to-end tests for the storage navigator component.
+
+Recommendations for Automation: Gabe suggested using Playwright in combination with LLMs to automate plain English test cases, generate bug reports, and streamline manual testing, which could be adopted by QA teams to further reduce manual test time.
+
+**Follow-up tasks:**
+
+DGXC Customer Migration Planning: Identify and engage an ISV or integrator to support the migration of Mercedes and BMW from DGXC to a CSP-based stack, ensuring a painless transition for these customers. (Gabe)
+
+Deployment Automation Script Update: Update the deployment automation script to support container-based deployments instead of VM-based, and verify that the automated process works end-to-end after this change. (Speaker 1)
+
+Playwright-Based Test Automation Exploration: Evaluate the use of Playwright with LLMs for automating manual tests in Navigator and consider sharing resulting test skills with QA for broader adoption. (Artem, Eric)
