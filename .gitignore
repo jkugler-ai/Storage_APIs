@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Local export state (watermarks); do not commit machine-specific browsing metadata
+state/watermarks.json
+
+# Daily log output if you choose to keep logs inside the repo folder
+logs/
