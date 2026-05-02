@@ -11,3 +11,6 @@ logs/
 
 # Scratch segments used to build eci-page.json (regenerated locally)
 storage-team/meeting-minutes/_eci_latest/
+
+# Temporary clone when mirroring to other repos (safe to delete locally)
+_ov-tpm-team-clone/
