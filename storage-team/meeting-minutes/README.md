@@ -4,6 +4,8 @@ Daily notes live here as Markdown (`.md`) files.
 
 **Confluence mirror in this folder:** [Storage-APIs-Demo-Recordings.md](./Storage-APIs-Demo-Recordings.md) — sprint demo page exported/summarized from [Confluence](https://nvidia.atlassian.net/wiki/spaces/OMNIVERSE/pages/2838740706/Storage+APIs+Demo+Recordings). Refresh via Cursor **MaaS Confluence** (`confluence_get_page`) or copy from the browser, then commit and push.
 
+**Expanded Confluence tables → Markdown:** [CONFLUENCE-COPY-EXPANDED-TABLE.md](./CONFLUENCE-COPY-EXPANDED-TABLE.md) (browser copy / export) and `python scripts/confluence_eci_flat_to_markdown.py` (all ECI text into `<details>` sections).
+
 ## How to add a new day
 
 1. Copy `_TEMPLATE-daily.md`.

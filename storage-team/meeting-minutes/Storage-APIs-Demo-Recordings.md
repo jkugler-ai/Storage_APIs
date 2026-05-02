@@ -30,6 +30,17 @@ If the **browser** shows an Atlassian “JavaScript load error” for `id-fronte
 
 Date · Demo / discussion topic(s) · Presenter(s) · AI summary · Transcript / recording
 
+### Demo table (best-effort Markdown; Confluence UI may differ)
+
+ECI text does not always preserve Confluence’s **expanded row** layout. For a true copy of expanded cells, follow [CONFLUENCE-COPY-EXPANDED-TABLE.md](./CONFLUENCE-COPY-EXPANDED-TABLE.md). To auto-build a Markdown file with **every ECI segment** in `<details>` blocks (full text), save MCP JSON and run `python scripts/confluence_eci_flat_to_markdown.py` (see that doc; sample input: `eci-page.sample.json`).
+
+| Date | Demo / discussion topic(s) | Presenter(s) | AI summary | Transcript / recording |
+|------|------------------------------|---------------|------------|-------------------------|
+| 2026-04-30 | Building Storage Navigator CLI with Superpowers skill; comparison of Superpowers vs OpenSpec; Security review skills with Claude/Cursor | Eric Glanz; Rick Acquistapace (slide deck); Artem Yastrebkov | “Meeting Recap…” (AI-generated; may be incorrect) | Links / files live on [Confluence](https://nvidia.atlassian.net/wiki/spaces/OMNIVERSE/pages/2838740706/Storage+APIs+Demo+Recordings) |
+| 2026-04-23 | Modeling Kit I/O behavior; Storage API Kubernetes operator; New scalable Live-Edit — agentic process | Diana Baghdasaryan; Dmitry Duka; Jesse Grant | AI recap on page | See Confluence / Teams |
+| 2026-03-25 | Migrating Kit-Test-Content with timestamps; Live edit through Storage API; Cluster resiliency testing | Pedro Luz; Brian Harris; Dmitry Duka | AI recap on page | See Confluence / Teams |
+| 2026-03-12 | Siemens EA2; Deployment automation from docs via AI; AI in engineering workflows; Storage API + refresh token | Manski Fransazov; Doron Levi; Chris Ruch; Eric Glanz & Artem Yastrebkov | AI recap on page | See Confluence / Teams |
+
 ---
 
 ## Latest session highlights (2026-04-30) — summarized
