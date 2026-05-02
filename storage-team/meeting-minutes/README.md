@@ -2,6 +2,8 @@
 
 Daily notes live here as Markdown (`.md`) files.
 
+**Session cheat sheet** (Markdown, Git, Confluence, mirrors): [SESSION-REFERENCE.md](https://github.com/jkugler-ai/jkugler-ai/blob/main/SESSION-REFERENCE.md) in [jkugler-ai/jkugler-ai](https://github.com/jkugler-ai/jkugler-ai).
+
 **Confluence mirror in this folder:** [Storage-APIs-Demo-Recordings.md](./Storage-APIs-Demo-Recordings.md) — sprint demo page exported/summarized from [Confluence](https://nvidia.atlassian.net/wiki/spaces/OMNIVERSE/pages/2838740706/Storage+APIs+Demo+Recordings). Refresh via Cursor **MaaS Confluence** (`confluence_get_page`) or copy from the browser, then commit and push.
 
 **Expanded Confluence tables → Markdown:** [CONFLUENCE-COPY-EXPANDED-TABLE.md](./CONFLUENCE-COPY-EXPANDED-TABLE.md) (browser copy / export) and `python scripts/confluence_eci_flat_to_markdown.py` (all ECI text into `<details>` sections).
