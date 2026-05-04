@@ -2,6 +2,8 @@
 
 This folder holds **Markdown mirrors** of selected Confluence pages (for example [Storage APIs Demo Recordings](https://nvidia.atlassian.net/wiki/spaces/OMNIVERSE/pages/2838740706/Storage+APIs+Demo+Recordings)).
 
+The **canonical copy** used for scripts and the NVIDIA sync is [`../meeting-minutes/Storage-APIs-Demo-Recordings.md`](../meeting-minutes/Storage-APIs-Demo-Recordings.md); the [OV-TPM-Team mirror](https://github.com/NVIDIA-dev/OV-TPM-Team/blob/main/Storage%20APIs/storage-demos/Storage-APIs-Demo-Recordings.md) tracks that file.
+
 ## Flow
 
 1. **Fetch** page text with Cursor + **MaaS Confluence** MCP (`confluence_get_page` + `page_url`), or copy from the browser.

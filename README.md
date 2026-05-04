@@ -101,5 +101,6 @@ Open the day’s CSV in Excel or any editor: columns include `timestamp_local`, 
 
 ## Other layout
 
-- `storage-team/meeting-minutes/` — daily standup template and GitHub workflow notes.
+- `storage-team/meeting-minutes/` — daily standup template, Confluence mirrors, and sync notes ([folder README](https://github.com/jkugler-ai/Storage_APIs/blob/main/storage-team/meeting-minutes/README.md)).
 - `storage-team/confluence-exports/` — Markdown mirrors / summaries of Confluence pages.
+- **OV-TPM-Team copy of demo recordings:** [Storage-APIs-Demo-Recordings.md](https://github.com/NVIDIA-dev/OV-TPM-Team/blob/main/Storage%20APIs/storage-demos/Storage-APIs-Demo-Recordings.md) (updated from this repo by [sync workflow](https://github.com/NVIDIA-dev/OV-TPM-Team/blob/main/.github/workflows/sync-storage-demo-recordings.yml); template in [`scripts/ov-tpm-team-sync-workflow.yml`](scripts/ov-tpm-team-sync-workflow.yml)).

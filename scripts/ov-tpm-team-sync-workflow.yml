@@ -1,9 +1,11 @@
 # Copy this file to the DESTINATION repo:
 #   OV-TPM-Team/.github/workflows/sync-storage-demo-recordings.yml
+#   (and optionally NVIDIA-dev/ovstorage with the same layout.)
 #
 # Prerequisites:
 #   - jkugler-ai/Storage_APIs is PUBLIC (raw.githubusercontent.com works without a token).
-#   - Adjust TARGET_DIR / SOURCE_URL below if paths change.
+#   - Adjust TARGET_DIR / SOURCE_URL below if paths change. On OV-TPM-Team the doc lives at
+#     Storage APIs/storage-demos/ (top-level "Storage APIs" folder in the repo).
 #
 # Behavior: on a schedule (and manual run), downloads the upstream Markdown and commits
 # only if the file changed. Uses the default GITHUB_TOKEN to push to OV-TPM-Team.
