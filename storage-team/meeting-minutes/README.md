@@ -8,6 +8,8 @@ Daily notes live here as Markdown (`.md`) files.
 
 **NVIDIA org mirror:** the same file is synced into [NVIDIA-dev/OV-TPM-Team](https://github.com/NVIDIA-dev/OV-TPM-Team) as [Storage APIs/storage-demos/Storage-APIs-Demo-Recordings.md](https://github.com/NVIDIA-dev/OV-TPM-Team/blob/main/Storage%20APIs/storage-demos/Storage-APIs-Demo-Recordings.md) by the [Sync Storage APIs demo minutes](https://github.com/NVIDIA-dev/OV-TPM-Team/actions/workflows/sync-storage-demo-recordings.yml) workflow (scheduled daily; use **Run workflow** after you push edits here for a quick refresh).
 
+**Slack list mirror (manual):** [Storage-APIs-Slack-list.md](https://github.com/NVIDIA-dev/OV-TPM-Team/blob/main/Storage%20APIs/storage-demos/Storage-APIs-Slack-list.md) in OV-TPM-Team links the [Storage APIs Slack list](https://nvidia.enterprise.slack.com/lists/T04SYRAP3/F0AJZTL7XV4) and holds a pasted Markdown table snapshot (not auto-synced).
+
 **Expanded Confluence tables → Markdown:** [CONFLUENCE-COPY-EXPANDED-TABLE.md](./CONFLUENCE-COPY-EXPANDED-TABLE.md) (browser copy / export) and `python scripts/confluence_eci_flat_to_markdown.py` (all ECI text into `<details>` sections).
 
 **Latest full ECI export in Git:** [Storage-APIs-Demo-Recordings-from-eci.md](./Storage-APIs-Demo-Recordings-from-eci.md) (generated from [eci-page.json](./eci-page.json)). To rebuild after a new MCP fetch, regenerate `eci-page.json` then run `python scripts\confluence_eci_flat_to_markdown.py storage-team\meeting-minutes\eci-page.json -o storage-team\meeting-minutes\Storage-APIs-Demo-Recordings-from-eci.md`.

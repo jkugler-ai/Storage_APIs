@@ -15,6 +15,7 @@ storage-team/meeting-minutes/_eci_latest/
 # Temporary clone when mirroring to other repos (safe to delete locally)
 _ov-tpm-team-clone/
 _ov-tpm-team-restructure/
+_ov-tpm-slack-list/
 _ovstorage-clone/
 _jkugler-ai-clone/
 _jkugler-ai-update/
