@@ -25,7 +25,7 @@ concurrency:
 
 env:
   SOURCE_URL: https://raw.githubusercontent.com/jkugler-ai/Storage_APIs/main/storage-team/meeting-minutes/Storage-APIs-Demo-Recordings.md
-  TARGET_DIR: docs/storage-demos
+  TARGET_DIR: Storage APIs/storage-demos
   TARGET_FILE: Storage-APIs-Demo-Recordings.md
 
 jobs:
