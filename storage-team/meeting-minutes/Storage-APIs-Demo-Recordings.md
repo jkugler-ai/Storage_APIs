@@ -26,6 +26,10 @@
 | Date | Demo / discussion topic(s) | Presenter(s) | Transcript / recording |
 |------|------------------------------|---------------|-------------------------|
 | 2026-06-11 | Open source multi-agent orchestration (Quorum); LangGraph for intelligent thumbnail service; Crash dump handler for Kubernetes pods | Jesse Grant; Kristin Galvin; Arusyak Zangezuryan | [Recording](https://nvidia-my.sharepoint.com/:v:/p/jkugler/IQD_UQcxocmYRJ_cN_i8ev5jATFicbrtPajE7USAz3ajqV8?e=D3Bpgr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| 2026-06-04 | Skills for the portal (VNDGXC); Agentic code review | Artem Yastrebkov; Achim Leitner | [Recording](https://nvidia-my.sharepoint.com/:v:/p/jkugler/IQBgwbvwke2MRIjyfMqvUNd_AZTFkplItlEoL51OAe6tyVc?e=xjdsgN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| 2026-05-28 | Migration tool optimizations and AI-assisted performance tuning; Slack Codex bot for automated engineering workflows; Personal AI workflow and skill development | Rustam; Doron Levi; Daniel Vasquez | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%210BbLqbEMJ0G5dM5d5nHm2K7pTxAC6iZLqDhFWNMalG5EYLMf-EuyQbxIPQNfHIx1&driveItemId=01ZBCWB6BGBE6OOLDIAFEKAJV66F5J45X7&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fjkugler%2FIQAmCTznLGgBSKAmvvF6nnb_AX8q5HN2PS0ch570RWWSiwg&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2Fpersonal%2Fjkugler_nvidia_com%2FDocuments%2FPictures%2FRecordings%2FStorage+Sprint+Demos+-+Weekly+2026-20260528_162951UTC-Meeting+Recording.mp4%3Fweb%3D1&iCalUid=040000008200E00074C5B7101A82E00807EA051CDF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&masterICalUid=040000008200E00074C5B7101A82E00800000000DF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&threadId=19%3Ameeting_ZGI0YjU4YzItOWIzMS00YzcyLWI4YmEtMWZlNWE0ZDU2Yjgz%40thread.v2&organizerId=35a1b353-a70f-4cc6-a82f-e60efd4c7705&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=937b0b4b-e914-4c83-8c07-80b4efe45651&threadType=meeting&meetingType=Recurring&subType=RecapSharingLink_RecapCore) |
+| 2026-05-14 | *cancelled* | — | — |
+| 2026-05-07 | AI-driven cluster deployment skills; AI Hackathon recap; Agentic workflow orchestration with GitLab and GitHub | Doron Levi; Nic; Chris Ruch | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%210BbLqbEMJ0G5dM5d5nHm2K7pTxAC6iZLqDhFWNMalG5EYLMf-EuyQbxIPQNfHIx1&driveItemId=01ZBCWB6FXL4NKEOIKD5DYQMWHJ6J7HBRV&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fjkugler%2FIQC3XxqiOQofR4gyx0-T84Y1AexzoLmFp_S8sinkLLsnVwk&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2Fpersonal%2Fjkugler_nvidia_com%2FDocuments%2FPictures%2FRecordings%2FStorage+Sprint+Demos+-+Weekly+2026-20260507_163002UTC-Meeting+Recording.mp4%3Fweb%3D1&iCalUid=040000008200E00074C5B7101A82E00807EA0507DF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&masterICalUid=040000008200E00074C5B7101A82E00800000000DF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&threadId=19%3Ameeting_ZGI0YjU4YzItOWIzMS00YzcyLWI4YmEtMWZlNWE0ZDU2Yjgz%40thread.v2&organizerId=35a1b353-a70f-4cc6-a82f-e60efd4c7705&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=8e593629-f246-4546-b4fd-e94f0f95a766&threadType=meeting&meetingType=Recurring&subType=RecapSharingLink_RecapCore) |
 | 2026-04-30 | Building Storage Navigator CLI with Superpowers skill; comparison of Superpowers vs OpenSpec; Security review skills with Claude/Cursor | Eric Glanz; Rick Acquistapace (slide deck); Artem Yastrebkov | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%210BbLqbEMJ0G5dM5d5nHm2K7pTxAC6iZLqDhFWNMalG5EYLMf-EuyQbxIPQNfHIx1&driveItemId=01ZBCWB6F7KAIT3FYK4BGLOJX6V5SY524P&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fjkugler%2FIQC_UBE9lwrgTLcm_q9ljuuPAQBwKQ1lzz2rPElvXlQAWMY&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fjkugler%2FIQC_UBE9lwrgTLcm_q9ljuuPAQBwKQ1lzz2rPElvXlQAWMY&iCalUid=040000008200E00074C5B7101A82E00807EA041EDF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&masterICalUid=040000008200E00074C5B7101A82E00800000000DF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&threadId=19%3Ameeting_ZGI0YjU4YzItOWIzMS00YzcyLWI4YmEtMWZlNWE0ZDU2Yjgz%40thread.v2&organizerId=35a1b353-a70f-4cc6-a82f-e60efd4c7705&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=26bff12e-71e2-4a08-bd55-059772273c39&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapChiclet) |
 | 2026-04-23 | Modeling Kit I/O behavior; Storage API Kubernetes operator; New scalable Live-Edit — agentic process | Diana Baghdasaryan; Dmitry Duka; Jesse Grant | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%21VMDxFOaXlEieqROU9xSQ_1ebZnuyxcNJlY29_Ii63fL38GJFsMnmR6u1Imk182zl&driveItemId=01HPRTUEMKK5BC7B4VV5A2CHG4Z5JIQDFI&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQCKV0Ivh5WvQaEc3M9SiAyoAf2j7NXhxEsOd16wW_Nkozo&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2Fpersonal%2Fdsmither_nvidia_com%2FDocuments%2FRecordings%2FStorage+Sprint+Demos-20260423_123250-Meeting+Recording.mp4%3Fweb%3D1&threadId=19%3Ameeting_NDRiOTk1YzQtMTQxNC00NGJiLWJmNjQtMzc5NTU1ODU3Mjlh%40thread.v2&organizerId=249dcdfb-fd68-40f4-850f-69245ee2421b&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=69d3ae30-cee2-408b-a22f-0b398f228117&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapCore) |
 | 2026-03-25 | Migrating Kit-Test-Content with timestamps; Live edit through Storage API; Cluster resiliency testing | Pedro Luz; Brian Harris; Dmitry Duka | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%21VMDxFOaXlEieqROU9xSQ_1ebZnuyxcNJlY29_Ii63fL38GJFsMnmR6u1Imk182zl&driveItemId=01HPRTUEPBC6XJ7AFPGZAIJNFAFGWMOPFM&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQDhF66fgK82QIS0oCmsxzysAcv7sYYJETMhPMyxCGVPMgo&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQDhF66fgK82QIS0oCmsxzysAcv7sYYJETMhPMyxCGVPMgo&iCalUid=040000008200E00074C5B7101A82E008000000000D63CDEFEF86DC010000000000000000100000006D6C42EE2168FD4EBB9037C332AF5B27&masterICalUid=040000008200E00074C5B7101A82E008000000000D63CDEFEF86DC010000000000000000100000006D6C42EE2168FD4EBB9037C332AF5B27&threadId=19%3Ameeting_NDRiOTk1YzQtMTQxNC00NGJiLWJmNjQtMzc5NTU1ODU3Mjlh%40thread.v2&organizerId=249dcdfb-fd68-40f4-850f-69245ee2421b&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=2d92d2d0-8e13-4566-8180-de04398cf663&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapChiclet) |
@@ -62,6 +66,100 @@ Arusyak presented a crash dump handler tool for Kubernetes.
 - Deployed as a DaemonSet and sidecar.
 - Captures and uploads crash dumps to Azure Blob.
 - Discussed limitations and planned improvements.
+
+---
+
+## Session highlights (2026-06-04) — summarized with AI
+
+**Introduction of New Portal Skills and MCP**
+Artem presented five new skills developed for the VNDGXC portal and MCP, demonstrating their use for streamlining application publishing, diagnostics, and integration with NVCF.
+
+- Five new skills: publishing a streaming application, checking application details, removing an application, checking NVCF function parameters, and a diagnostic skill for troubleshooting deployment issues.
+- MCP built using Fast MCP library (similar to FastAPI), integrated into the backend with OpenID Connect authentication.
+- Diagnostic skill leverages curated documentation, error codes, and historical bug reports to help users identify and resolve streaming issues.
+- Publishing restricted to portal administrators; diagnostic and status-checking skills available to regular users.
+
+**Agentic Code Review Process and Automation**
+Achim shared experiences automating the code review process for the Rev project using agents.
+
+- Evolution from pair programming to multi-agent review coordination (architecture review, regression test coverage, QA).
+- Triage skill to automatically resolve review comments addressable with a single regression test or simple fix.
+- Jira task automation: processes Jira tasks, triages them, and automatically generates merge requests for agent-resolvable tasks.
+- Ongoing challenges: maintaining context for agents, preventing scope creep, fully automating complex task decomposition.
+
+**Follow-up tasks:**
+- Develop a skill that collects relevant information and submits a formatted ticket to SRE when diagnostic skills cannot resolve a customer issue. (Artem)
+- Discuss with Drew the creation of a separate Slack channel for testing portal skills before public release. (Artem, Mitri)
+- Add Jen to the Slack space with Stephanie for MCP-related work with NVCF/NGC teams. (Mitri)
+
+---
+
+## Session highlights (2026-05-28) — summarized with AI
+
+**Migration Tool Optimization and AI-Assisted Performance Tuning**
+Rustam presented on optimizing the migration tool for large-scale data uploads.
+
+- Requirement: migrations of dozens of terabytes must complete in under half an hour.
+- LLMs provide shallow answers for performance issues due to limited context; better used to analyze how other tools work or generate reports/visualizations.
+- Key solution: decoupling disk reads from network uploads using a buffer (inspired by Azure Easy Copy); parallelized hash computations across multiple cores.
+- Importance of benchmarking in realistic environments — same-zone benchmarks missed network and CPU contention issues.
+- AI tools helped generate benchmarks and visualizations that identified TCP exhaustion in the storage service.
+
+**Slack Codex Bot for Automated Engineering Workflows**
+Doron demonstrated a Slack-integrated bot that automates engineering workflows.
+
+- Supports code reviews, repository management, and CI/CD tasks directly from Slack.
+- Distinguishes between read and write operations; explicit approval required for writes.
+- Multi-user and parallel session support with isolated workspaces.
+- MR loop automation: fetches comments, runs reviews, applies fixes, manages pipeline execution.
+
+**Personal AI Workflow and Skill Development**
+Daniel shared their journey leveraging AI to improve engineering quality and collaboration.
+
+- 150,000 messages, 300 MB of transcripts, and 115 planning documents over three months.
+- Automated Jira interactions and PLC process guidance.
+- AI-generated test cases improved code coverage; codified knowledge from meetings into reusable tests.
+- Deployed Mega on GCP in under a week using AI for planning, telemetry, and dashboards.
+
+**Follow-up tasks:**
+- Hand off CI integration work for skill-based deployment system to Priya's team. (Priya's team)
+- Schedule session to demonstrate Codex Slack repo tool. (Doron)
+- Publish both MD and HTML versions of agent documentation. (Nic, Doron)
+- Assist Jen in finishing Codex environment setup. (Doron)
+
+---
+
+## Session highlights (2026-05-07) — summarized with AI
+
+**AI-Driven Cluster Deployment Skill Development**
+Doron presented the evolution of an AI-driven deployment skill for cluster bring-up.
+
+- Codex and Slack integration enabled automated doc auditing, script generation, and validation.
+- Workflow evolved from manual high-friction processes to AI-assisted loops where Codex automates doc parsing, drift detection, and script updates.
+- Each deployment stage defined by a skill, including troubleshooting and extensibility.
+- Version oracle checks multiple sources for resource versions, highlighting discrepancies.
+- Priya's team, Dom, and Dhvani are current adopters; plans for CI integration.
+
+**AI Hackathon Experience and Lessons Learned**
+Nic recounted the AI hackathon at HQ — building an agentic digital twin warehouse generator.
+
+- 60 participants using agentic coding only; Nic's team (Daniel, TJ) built a digital twin warehouse generator.
+- Key lesson: detailed, agreed-upon plans required before agent execution to avoid conflicts.
+- Used Claude to generate daily plans, execute tasks overnight, and integrate pipelines.
+- Boss-minion agent fleet architecture with SQLite task database and memory consolidation into a Quartz wiki.
+
+**Agentic Workflow Orchestration with GitLab and GitHub**
+Chris explained orchestration using push-to-claude skills and pipeline servers.
+
+- Bare Git repo with post-receive hooks triggers Claude agent to execute workflows (bug, feature, change, review).
+- Local agent monitors progress, pulls completed branches, opens MRs in GitLab, feeds CI failures back as new issues.
+- Experiments with agent teams: architect, coder, reviewer, quality manager roles using SwarmForge and Tmux.
+
+**Follow-up tasks:**
+- Hand off CI integration for skill-based deployment to Priya's team.
+- Schedule Codex Slack repo demonstration.
+- Publish both MD and HTML versions of agent documentation. (Nic, Doron)
+- Assist Jen in finishing Codex environment setup. (Doron)
 
 ---
 
