@@ -25,6 +25,7 @@
 
 | Date | Demo / discussion topic(s) | Presenter(s) | Transcript / recording |
 |------|------------------------------|---------------|-------------------------|
+| 2026-06-11 | Open source multi-agent orchestration (Quorum); LangGraph for intelligent thumbnail service; Crash dump handler for Kubernetes pods | Jesse Grant; Kristin Galvin; Arusyak Zangezuryan | Meeting Recap: Thursday, June 11 |
 | 2026-04-30 | Building Storage Navigator CLI with Superpowers skill; comparison of Superpowers vs OpenSpec; Security review skills with Claude/Cursor | Eric Glanz; Rick Acquistapace (slide deck); Artem Yastrebkov | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%210BbLqbEMJ0G5dM5d5nHm2K7pTxAC6iZLqDhFWNMalG5EYLMf-EuyQbxIPQNfHIx1&driveItemId=01ZBCWB6F7KAIT3FYK4BGLOJX6V5SY524P&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fjkugler%2FIQC_UBE9lwrgTLcm_q9ljuuPAQBwKQ1lzz2rPElvXlQAWMY&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fjkugler%2FIQC_UBE9lwrgTLcm_q9ljuuPAQBwKQ1lzz2rPElvXlQAWMY&iCalUid=040000008200E00074C5B7101A82E00807EA041EDF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&masterICalUid=040000008200E00074C5B7101A82E00800000000DF7B06630DD4DC01000000000000000010000000AC7882892BF5EB49AC3A8E42686D58F9&threadId=19%3Ameeting_ZGI0YjU4YzItOWIzMS00YzcyLWI4YmEtMWZlNWE0ZDU2Yjgz%40thread.v2&organizerId=35a1b353-a70f-4cc6-a82f-e60efd4c7705&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=26bff12e-71e2-4a08-bd55-059772273c39&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapChiclet) |
 | 2026-04-23 | Modeling Kit I/O behavior; Storage API Kubernetes operator; New scalable Live-Edit — agentic process | Diana Baghdasaryan; Dmitry Duka; Jesse Grant | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%21VMDxFOaXlEieqROU9xSQ_1ebZnuyxcNJlY29_Ii63fL38GJFsMnmR6u1Imk182zl&driveItemId=01HPRTUEMKK5BC7B4VV5A2CHG4Z5JIQDFI&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQCKV0Ivh5WvQaEc3M9SiAyoAf2j7NXhxEsOd16wW_Nkozo&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2Fpersonal%2Fdsmither_nvidia_com%2FDocuments%2FRecordings%2FStorage+Sprint+Demos-20260423_123250-Meeting+Recording.mp4%3Fweb%3D1&threadId=19%3Ameeting_NDRiOTk1YzQtMTQxNC00NGJiLWJmNjQtMzc5NTU1ODU3Mjlh%40thread.v2&organizerId=249dcdfb-fd68-40f4-850f-69245ee2421b&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=69d3ae30-cee2-408b-a22f-0b398f228117&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapCore) |
 | 2026-03-25 | Migrating Kit-Test-Content with timestamps; Live edit through Storage API; Cluster resiliency testing | Pedro Luz; Brian Harris; Dmitry Duka | [Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%21VMDxFOaXlEieqROU9xSQ_1ebZnuyxcNJlY29_Ii63fL38GJFsMnmR6u1Imk182zl&driveItemId=01HPRTUEPBC6XJ7AFPGZAIJNFAFGWMOPFM&sitePath=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQDhF66fgK82QIS0oCmsxzysAcv7sYYJETMhPMyxCGVPMgo&fileUrl=https%3A%2F%2Fnvidia-my.sharepoint.com%2F%3Av%3A%2Fp%2Fdsmither%2FIQDhF66fgK82QIS0oCmsxzysAcv7sYYJETMhPMyxCGVPMgo&iCalUid=040000008200E00074C5B7101A82E008000000000D63CDEFEF86DC010000000000000000100000006D6C42EE2168FD4EBB9037C332AF5B27&masterICalUid=040000008200E00074C5B7101A82E008000000000D63CDEFEF86DC010000000000000000100000006D6C42EE2168FD4EBB9037C332AF5B27&threadId=19%3Ameeting_NDRiOTk1YzQtMTQxNC00NGJiLWJmNjQtMzc5NTU1ODU3Mjlh%40thread.v2&organizerId=249dcdfb-fd68-40f4-850f-69245ee2421b&tenantId=43083d15-7273-40c1-b7db-39efd9ccc17a&callId=2d92d2d0-8e13-4566-8180-de04398cf663&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapChiclet) |
@@ -32,7 +33,39 @@
 
 ---
 
-## Latest session highlights (2026-04-30) — summarized with AI
+## Latest session highlights (2026-06-11) — summarized with AI
+
+**Quorum Open Source Multi-Agent Orchestration Library Demo**
+Jesse presented a comprehensive demo of Quorum, an open source multi-agent orchestration library for SDLC workflows, explaining its architecture, workflow, and practical use in building a notification service feature.
+
+- Quorum decomposes work into tickets, assigns specialized agents for engineering, testing, documentation, and product management, and uses an orchestrator to manage workflow.
+- The system is durable, auditable, and scalable for both small and large features, with all work and specs defined in tickets checked into the repository.
+- The workflow begins with planning, where features are scoped and broken down into epics, tasks, and subtasks, with agent-driven reviews and approvals.
+- Fresh agent sessions are used for reviews to avoid context rot and ensure unbiased code review.
+- Demo: building a notification service feature involving dead letter queues and a CLI for message inspection — resulted in 2 epics, 12 tasks, and 41 subtasks across 5 repositories.
+- Rollback is supported: users can revisit and revise previous steps without starting over.
+- Quorum reads the repository during setup, generates or integrates style guides and specs, and adapts to project-specific requirements.
+
+**LangGraph for Intelligent Thumbnail Service**
+Kristin presented LangGraph, an open source finite state machine framework from the LangChain team for orchestrating AI and LLM workflows.
+
+- LangGraph supports human-in-the-loop gates, retries, time travel, and persistent state.
+- Application demo: expanding a thumbnail service to support various asset types (image, video, USD, PDF) by routing assets to specialized workers.
+- Bespoke dashboard for visualizing the workflow, with integration to JIRA and GitLab, human approval gates, and the ability to step through, roll back, and debug.
+- Supports parallel execution, context management, and dynamic LLM selection for different tasks.
+- End-to-end automation from JIRA feature to GitLab MR, with error handling and partial-success recovery.
+- Kristin confirmed building a worker with LangGraph within a week.
+
+**Crash Dump Handler for Kubernetes Pods**
+Arusyak presented a crash dump handler tool for Kubernetes.
+
+- Deployed as a DaemonSet and sidecar.
+- Captures and uploads crash dumps to Azure Blob.
+- Discussed limitations and planned improvements.
+
+---
+
+## (2026-04-30) — summarized with AI
 
 **Topics called out in the export:** Storage Navigator CLI with Superpowers skill; comparison of Superpowers vs OpenSpec; security review / remediator skills with Claude/Cursor; OneDrive integration (auth, multi-user), OpenSpec workflow (proposal/design/spec/tasks, phases), Portal testing delays (Kit + Omni Storage API Auth extension), MVSB review status, performance (e.g. Astronaut USD graph API / load times), Kubernetes/operator and Helm discussion threads from prior weeks, Chaos Mesh resiliency testing, Live Edit / Rust service work, and more.
 
